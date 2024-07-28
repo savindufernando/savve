@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Buddy - Fit with us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">  <!-- favicon-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="#" class="logo">
+        <img src="./assets/images/logo2.png" width="160" height="50" alt="Footcap logo">
+      </a>
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a>
+        <!-- navigation bar -->
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link" style="color: var(--bittersweet);">About</a>
+          </li>
+          <li class="navbar-item dropdown">
+            <a href="supplement.html" class="navbar-link dropdown-toggle" data-toggle="dropdown">Products</a>
+            <!-- <ul class="dropdown-menu">
+              <li><a href="Supplement.html" class="dropdown-item">Supplements</a></li>
+              <li><a href="SwimmingWear.html" class="dropdown-item" >Sports Wear</a></li>
+            </ul> -->
+          </li>
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="nav-action-list">
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <main>
+<div class="container">
+    <section class="about-us">
+        <div class="image-section">
+            <img src="assets/images/aboutus.png" alt="Health and Wellness">
+        </div>
+        <div class="content-section">
+            <h2>Our Mission</h2>
+            <p>At Health & Wellness Shop, our mission is to empower you to achieve your best self through top-quality supplements and personalized training. We believe in a holistic approach to health that includes proper nutrition, physical activity, and mental well-being.</p>
+            <h2>What We Offer</h2>
+            <p>We provide a range of high-quality supplements designed to support various aspects of health, including muscle growth, weight loss, and overall wellness. Our personal training services are tailored to meet your unique needs, helping you to achieve your fitness goals efficiently and safely.</p>
+            <h2>Our Team</h2>
+            <p>Our team consists of certified nutritionists, experienced personal trainers, and passionate health enthusiasts. We are dedicated to providing you with the knowledge and support you need to make informed decisions about your health.</p>
+            <h2>Join Us</h2>
+            <p>Join our community and take the first step towards a healthier, happier you. Whether you are just starting your fitness journey or looking to take your performance to the next level, we are here to help.</p>
+            <button class="cta-button" onclick="showContactForm()">Contact Us</button>
+        </div>
+    </section>
+    <section class="about-us">
+        <section class="team">
+            <h2>Meet Our CEO and Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>Savindu Fernando - CEO</h3>
+                    <p>Savindu Fernando is the visionary behind Health & Wellness Shop. With over 5 years of experience in the health and fitness industry, Mr.Fernando leads our team with passion and dedication.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Hirusha Gamage - Head Nutritionist</h3>
+                    <p>Hirusha Gamage is our head nutritionist with a wealth of knowledge in dietary planning and supplement formulation.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Pavithra Dissanayake - Lead Trainer</h3>
+                    <p>Pavithra Dissanayake brings a dynamic approach to personal training, helping clients achieve their fitness goals with tailored workout plans.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sponsorships">
+            <h2>Our Sponsorships</h2>
+            <p>We are proud to be sponsored by some of the leading brands in the health and fitness industry. Their support helps us bring the best products and services to our customers.</p>
+            <div class="sponsor-photos">
+                <img src="assets/images/sponsor1.jpg" alt="Sponsor 1">
+                <img src="assets/images/sponsor2.jpg" alt="Sponsor 2">
+                <img src="assets/images/sponsor3.png" alt="Sponsor 3">
+                <img src="assets/images/sponsor4.jpg" alt="Sponsor 4">
+            </div>
+        </section>
+        <section class="contact-form-container" id="contact-form">
+            <h2>Contact Us</h2>
+            <form id="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+                <button type="button" class="cta-button" id="close-form">Close</button>
+            </form>
+        </section>
+    </section>
+</div>
+  </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo2.png" width="160" height="50" alt="gymbuddy">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                  Havelock Mall, Kirulapone, Colombo 05, Sri Lanka
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+94112345678" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+94 11 23 45 678</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:footcap@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">gymbuddy@help.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+  
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Opening Time</p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Mon - Sun:</th>
+
+                  <td class="table-data">10AM - 7PM</td>
+
+                  <th class="table-head" scope="row">Poya Day :</th>
+
+                  <td class="table-data">Closed</td>
+                </tr>
+
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="newsletter-text">
+              Subscribe to more .
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">gymbuddy.com</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="assets/js/about.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
